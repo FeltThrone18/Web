@@ -11,7 +11,7 @@
         else
         {
             // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-            $connection = mysqli_connect("localhost", "Rahul", "redhat");
+            $connection = mysqli_connect("localhost", "Rahul", "123456");
             if ($connection->connect_error) {
                 die("Connection failed: " . $connection->connect_error);
                 echo('connection to db failed');
