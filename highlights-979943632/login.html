@@ -147,6 +147,12 @@
                         <div id="lower">
                             <input type="checkbox"><label class="check" for="checkbox">Keep me logged in</label>
                                 <input type="submit" value="Login" name = "Login">
+                                    <p>
+                                    <?php
+                                        session_start();
+                                        echo($_SESSION['error']);
+                                        ?>
+                                    </p>
                                     </div><!--/ lower-->
                         </form>
         </div><!--/ container-->
