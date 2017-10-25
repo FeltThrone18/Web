@@ -147,13 +147,11 @@
                         <div id="lower">
                             <input type="checkbox"><label class="check" for="checkbox">Keep me logged in</label>
                                 <input type="submit" value="Login" name = "Login">
-                                    <p>
-                                    <?php
-                                        session_start();
-                                        echo($_SESSION['error']);
-                                        ?>
-                                    </p>
-                                    </div><!--/ lower-->
+                                    <?php if (isset($_SESSION['error'])){ ?>
+                                    <div class="text-center pad-top-20">
+                                        <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
+                                    </div>
+                                <?php } ?>                                    </div><!--/ lower-->
                         </form>
         </div><!--/ container-->
         <!-- End Page Content -->
