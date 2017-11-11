@@ -1,4 +1,12 @@
 <!DOCTYPE HTML>
+<?php
+$cookie_name = "recent5";
+if(!isset($_COOKIE[$cookie_name])) {
+    $cookie_value = [0,0,0,0,0];
+    setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
+}
+
+?>
 <html>
 	<head>
 		<title>Highlights by Rahul</title>
