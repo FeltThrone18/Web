@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <?php 
-$cookie_name = "recent5”; 
+$cookie_name = "recent5"; 
 $cookie_value = $_COOKIE[$cookie_name]; 
 $cookie_value = json_decode($cookie_value, true); 
 $services_dict = array(1 => "<a href = 'index copy.html\'>Achievements</a>", 
