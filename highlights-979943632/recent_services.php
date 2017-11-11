@@ -4,21 +4,21 @@
 $cookie_name = "recent5”; 
 $cookie_value = $_COOKIE[$cookie_name]; 
 $cookie_value = json_decode($cookie_value, true); 
-$services_dict = array(1 => "<a href = 'index copy.html'>Achievements</a>”, 
-2 => "<a href = 'index copy 2.html'>Merchandise</a>”, 
-3 => "<a href = 'index copy 3.html'>Youtube Coverage</a>”, 
-4 => "<a href = 'index copy 4.html'>Conventions</a>”, 
-5 => "<a href = 'index copy 5.html'>Stats for Nerds</a>”, 
-6 => "<a href = 'index copy 6.html'>Platoon Manager</a>”, 
-7 => "<a href = 'index copy 7.html'>Sponsorships</a>”, 
-8 => "<a href = 'index copy 8.html'>Recruiting</a>”, 
-9 => "<a href = 'index copy 9.html'>Assisting in CTE</a>”, 
-10 => "<a href = 'index copy 10.html'>Social Media Management</a>",);?>
+$services_dict = array(1 => "Achievements”,
+2 => "Merchandise”,
+3 => "Youtube Coverage”, 
+4 => "Conventions”, 
+5 => "Stats for Nerds”, 
+6 => "Platoon Manager”, 
+7 => "Sponsorships”, 
+8 => "Recruiting”, 
+9 => "Assisting in CTE”, 
+10 => "Social Media Management",);?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Login Page</title>
+        <title>Recent Services</title>
         <style>
             /* Basics */
             html, body {
