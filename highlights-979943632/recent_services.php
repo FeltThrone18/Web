@@ -4,8 +4,7 @@
 $cookie_name = "recent5”; 
 $cookie_value = $_COOKIE[$cookie_name]; 
 $cookie_value = json_decode($cookie_value, true); 
-$services_dict = array(
-1 => "<a href = 'index copy.html'>Achievements</a>”, 
+$services_dict = array(1 => "<a href = 'index copy.html'>Achievements</a>”, 
 2 => "<a href = 'index copy 2.html'>Merchandise</a>”, 
 3 => "<a href = 'index copy 3.html'>Youtube Coverage</a>”, 
 4 => "<a href = 'index copy 4.html'>Conventions</a>”, 
@@ -14,7 +13,7 @@ $services_dict = array(
 7 => "<a href = 'index copy 7.html'>Sponsorships</a>”, 
 8 => "<a href = 'index copy 8.html'>Recruiting</a>”, 
 9 => "<a href = 'index copy 9.html'>Assisting in CTE</a>”, 
-10 => "<a href = 'index copy 10.html'>Social Media Management</a>"); ?>
+10 => "<a href = 'index copy 10.html'>Social Media Management</a>",);?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
