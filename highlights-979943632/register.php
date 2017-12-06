@@ -27,7 +27,7 @@ $connection = mysqli_connect("localhost", "Rahul", "123456");
         $query = mysqli_query($connection, "insert into LoginData values('$username','$password');");
         echo(mysqli_error($connection));
         $_SESSION['error'] = "Registration Successful";
-        header("location: Login.html");
+        header("location: login.html");
     }
     else {
         $error = "Username is occupied, try another!";
