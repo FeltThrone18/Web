@@ -149,6 +149,9 @@
                                 <input type="submit" value="Login" name = "Login">
                                     <?php if (isset($_SESSION['error'])){ ?>
                                     <div class="text-center pad-top-20">
+                                        <p><font color="red"><strong><a href="signup.html">Register</a> here!</strong></font></p>
+                                    </div>
+                                    <div class="text-center pad-top-20">
                                         <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
                                     </div>
                                 <?php } ?>                                    </div><!--/ lower-->
