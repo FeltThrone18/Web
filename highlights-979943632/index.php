@@ -100,6 +100,10 @@ if(!isset($_COOKIE[$cookie_name])) {
 								<span class="icon major fa-shopping-basket"></span>
 								<h3><a href="recent_services.php" target="_blank">Recently Visited Services</a></h3>
 							</li>
+							<li>
+								<span class="icon major fa-shopping-basket"></span>
+								<h3><a href="usersdisplay.php" target="_blank">All Network Users</a></h3>
+							</li>
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
