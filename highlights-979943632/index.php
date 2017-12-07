@@ -102,7 +102,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 							</li>
 							<li>
 								<span class="icon major fa-shopping-basket"></span>
-								<h3><a href="usersdisplay.php" target="_blank">All Network Users</a></h3>
+								<h3><a href="http://www.abc-consulting.tk/highlights-gaming/usersdisplay.php.php" target="_blank">All Network Users</a></h3>
 							</li>
 						</ul>
 					</div>
