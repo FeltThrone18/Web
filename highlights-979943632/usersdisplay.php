@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
 <style>
@@ -20,46 +19,53 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
+<form action="" method="post">
+    <ul>
+        <?php
+                                            $ch = curl_init();
+                                            
+                                            echo("<b>Users from Navoday's Site: </b><br/><br/> ");
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.abc-consulting.tk/fetchusers.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            
+                                            $result = curl_exec($ch);
+                                            
+                                            echo($result."<br/>");
+                                            
+                                            echo("<b>Users from Neha's Site:</b><br/><br/>");
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/fetchusers.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            
+                                            $result = curl_exec($ch);
+                                            
+                                            echo($result."<br/>");
+                                            
+                                            echo("<b>Users from Anav's Site:</b><br/><br/>");
+                                            curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/curlmydb/index.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            
+                                            $result = curl_exec($ch);
+                                            
+                                            echo($result."<br/>");
+                                            
+                                            echo("<b>Users from Rahul's Site:</b><br/><br/>");
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.highlights-gaming.ga/highlights-979943632/fetchusers.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            
+                                            $result = curl_exec($ch);
+                                            
+                                            echo($result."<br/>");
 
-<ul>
-<?php
-    $ch = curl_init();
+                                            echo("<b>Users from Anjali's Site:</b><br/><br/>");
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.abc-consulting.tk/avboutique/fetchusers.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-    echo("<b>Users from Navoday's Site: </b><br/><br/> ");
-    curl_setopt($ch, CURLOPT_URL, "http://www.abc-consulting.tk/fetchusers.php");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            $result = curl_exec($ch);
 
-    $result = curl_exec($ch);
-
-    echo($result."<br/>");
-
-    echo("<b>Users from Neha's Site:</b><br/><br/>");
-    curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/fetchusers.php");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-    $result = curl_exec($ch);
-
-    echo($result."<br/>");
-
-    echo("<b>Users from Anav's Site:</b><br/><br/>");
-    curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/curlmydb/index.php");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-    $result = curl_exec($ch);
-
-    echo($result."<br/>");
-
-    echo("<b>Users from Rahul's Site:</b><br/><br/>");
-    curl_setopt($ch, CURLOPT_URL, "http://www.highlights-gaming.ga/highlights-979943632/fetchusers.php");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-    $result = curl_exec($ch);
-
-    echo($result."<br/>");
-    curl_close($ch);
-?>
-</ul>
-
-
+                                            echo($result."<br/>");
+                                            curl_close($ch);
+                                        ?>
+    </ul>
+</form>
 </body>
 </html>
